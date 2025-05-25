@@ -43,10 +43,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &bootloader    &trans
+&trans  &kp PLUS              &kp CARET         &kp AMPERSAND  &trans         &kp EQUAL              &kp PERCENT      &kp HASH           &trans  &trans
+&trans  &kp TILDE             &kp SINGLE_QUOTE  &kp PIPE       &kp GRAVE      &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans  &trans
+&trans  &kp NON_US_BACKSLASH  &kp ASTERISK      &kp SLASH      &trans         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
+                              &trans            &trans         &bootloader    &trans
             >;
         };
 
